@@ -70,8 +70,8 @@ function App() {
 
   return (
     <>
-      <div className=" bg-customColor shadow-customShadow py-5 px-8">
-          <h1 className="font-bold text-3xl">Password Generator</h1>
+      <div className=" bg-customColor shadow-customShadow py-5 px-8 rounded-xl">
+          <h1 className="font-bold text-3xl text-center">Password Generator</h1>
           <div className=" mt-8 flex flex-col gap-2 items-center">
               <p className="text-xl">Enter length of the password (min-6, max-128)</p>
               <input type="number" 
